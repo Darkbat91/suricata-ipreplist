@@ -32,3 +32,7 @@ default-reputation-path: /etc/suricata/iprep
 reputation-files:
  - reputation.list
  ```
+
+## Known Limitations
+
+This Project can not pull more than 60 categories due to a maximum count in Suricata. To work around this The script is compressing 61+ into the same category as 60. That is not an ideal solution but having all of the ip addresses is deemed more important than ensuring that all of them are categorized properly. 
