@@ -65,13 +65,13 @@ def buildreputationlist():
     categoryid = 0
     for name in getCategories():
         
-        repitem = "%s,%s,%s\r\n" % (categoryid,name,"Item from BadIPS")
+        repitem = "%s,%s,%s\n" % (categoryid,name,"Item from BadIPS")
 
         if(stopcategory == False):
             replist.write(repitem)
 
         for ip in getBadIps(name, 4, 30):
-            badip = "%s,%s,%s\r\n" % (ip.decode(),categoryid,1)
+            badip = "%s,%s,%s\n" % (ip.decode(),categoryid,1)
             iplist.write(badip)
 
         if(categoryid < 60):
