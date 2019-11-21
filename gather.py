@@ -62,7 +62,7 @@ def buildreputationlist():
     
     stopcategory = False
     categorynames = getCategories()
-    categoryid = 0
+    categoryid = 1
     for name in getCategories():
         
         repitem = "%s,%s,%s\n" % (categoryid,name,"Item from BadIPS")
