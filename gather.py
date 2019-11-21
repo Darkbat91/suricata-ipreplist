@@ -60,16 +60,25 @@ def buildreputationlist():
     replist = open("categorylist.txt", "w")
     iplist = open("iplist.txt", "w")
     
+    stopcategory = False
     categorynames = getCategories()
     categoryid = 0
     for name in getCategories():
+        
         repitem = "%s,%s,%s\r\n" % (categoryid,name,"Item from BadIPS")
-        replist.write(repitem)
+
+        if(stopcategory == False):
+            replist.write(repitem)
+
         for ip in getBadIps(name, 4, 30):
             badip = "%s,%s,%s\r\n" % (ip.decode(),categoryid,1)
             iplist.write(badip)
 
-        categoryid += 1
+        if(categoryid < 60):
+            # Reptuation file is hard coded to no larger than 60 https://jasonish-suricata.readthedocs.io/en/latest/reputation/ipreputation/ip-reputation-format.html
+            categoryid += 1
+        else:
+            stopcategory = True
 
     replist.close()
     iplist.close()

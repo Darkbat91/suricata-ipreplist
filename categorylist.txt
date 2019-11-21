@@ -1,81 +1,61 @@
-0, ssh-ddos, Item from BadIPS
-1, phpids, Item from BadIPS
-2, apache-modsec, Item from BadIPS
-3, spam, Item from BadIPS
-4, apache-noscript, Item from BadIPS
-5, default, Item from BadIPS
-6, http, Item from BadIPS
-7, wordpress, Item from BadIPS
-8, sql-injection, Item from BadIPS
-9, postfix, Item from BadIPS
-10, apache, Item from BadIPS
-11, owncloud, Item from BadIPS
-12, vsftpd, Item from BadIPS
-13, dns, Item from BadIPS
-14, apache-spamtrap, Item from BadIPS
-15, proxy, Item from BadIPS
-16, apache-404, Item from BadIPS
-17, Php-url-fopen, Item from BadIPS
-18, voip, Item from BadIPS
-19, apache-defensible, Item from BadIPS
-20, w00t, Item from BadIPS
-21, xmlrpc, Item from BadIPS
-22, sip, Item from BadIPS
-23, proftpd, Item from BadIPS
-24, rdp, Item from BadIPS
-25, sasl, Item from BadIPS
-26, dovecot-pop3, Item from BadIPS
-27, courierpop3, Item from BadIPS
-28, local-exim, Item from BadIPS
-29, drupal, Item from BadIPS
-30, rfi-attack, Item from BadIPS
-31, squid, Item from BadIPS
-32, dovecot, Item from BadIPS
-33, ftp, Item from BadIPS
-34, plesk-postfix, Item from BadIPS
-35, sql-attack, Item from BadIPS
-36, sshddos, Item from BadIPS
-37, named, Item from BadIPS
-38, apache-nohome, Item from BadIPS
-39, nginxproxy, Item from BadIPS
-40, pureftp, Item from BadIPS
-41, asterisk, Item from BadIPS
-42, smtp, Item from BadIPS
-43, wp, Item from BadIPS
-44, ssh-blocklist, Item from BadIPS
-45, dovecot-pop3imap, Item from BadIPS
-46, unknown, Item from BadIPS
-47, asterisk-sec, Item from BadIPS
-48, spamdyke, Item from BadIPS
-49, bruteforce, Item from BadIPS
-50, pop3, Item from BadIPS
-51, apache-dokuwiki, Item from BadIPS
-52, qmail-smtp, Item from BadIPS
-53, nginxpost, Item from BadIPS
-54, screensharingd, Item from BadIPS
-55, postfix-sasl, Item from BadIPS
-56, telnet, Item from BadIPS
-57, ssh, Item from BadIPS
-58, assp, Item from BadIPS
-59, pureftpd, Item from BadIPS
-60, vnc, Item from BadIPS
-61, apache-w00tw00t, Item from BadIPS
-62, apache-overflows, Item from BadIPS
-63, apacheddos, Item from BadIPS
-64, nginx, Item from BadIPS
-65, badbots, Item from BadIPS
-66, sql, Item from BadIPS
-67, username-notfound, Item from BadIPS
-68, sshd, Item from BadIPS
-69, ssh-auth, Item from BadIPS
-70, courierauth, Item from BadIPS
-71, exim, Item from BadIPS
-72, apache-php-url-fopen, Item from BadIPS
-73, imap, Item from BadIPS
-74, apache-phpmyadmin, Item from BadIPS
-75, ddos, Item from BadIPS
-76, cyrusauth, Item from BadIPS
-77, apache-wordpress, Item from BadIPS
-78, apache-scriddies, Item from BadIPS
-79, cms, Item from BadIPS
-80, php-cgi, Item from BadIPS
+0,proxy,Item from BadIPS
+1,ssh-ddos,Item from BadIPS
+2,sip,Item from BadIPS
+3,cms,Item from BadIPS
+4,pureftpd,Item from BadIPS
+5,ssh-blocklist,Item from BadIPS
+6,dovecot-pop3,Item from BadIPS
+7,w00t,Item from BadIPS
+8,postfix,Item from BadIPS
+9,apache-dokuwiki,Item from BadIPS
+10,Php-url-fopen,Item from BadIPS
+11,http,Item from BadIPS
+12,pop3,Item from BadIPS
+13,apache-noscript,Item from BadIPS
+14,imap,Item from BadIPS
+15,cyrusauth,Item from BadIPS
+16,drupal,Item from BadIPS
+17,vnc,Item from BadIPS
+18,bruteforce,Item from BadIPS
+19,badbots,Item from BadIPS
+20,owncloud,Item from BadIPS
+21,spam,Item from BadIPS
+22,spamdyke,Item from BadIPS
+23,xmlrpc,Item from BadIPS
+24,apacheddos,Item from BadIPS
+25,named,Item from BadIPS
+26,rdp,Item from BadIPS
+27,voip,Item from BadIPS
+28,squid,Item from BadIPS
+29,pureftp,Item from BadIPS
+30,vsftpd,Item from BadIPS
+31,dovecot-pop3imap,Item from BadIPS
+32,apache-overflows,Item from BadIPS
+33,postfix-sasl,Item from BadIPS
+34,ddos,Item from BadIPS
+35,smtp,Item from BadIPS
+36,apache-modsec,Item from BadIPS
+37,plesk-postfix,Item from BadIPS
+38,apache-spamtrap,Item from BadIPS
+39,wordpress,Item from BadIPS
+40,local-exim,Item from BadIPS
+41,sql-injection,Item from BadIPS
+42,courierpop3,Item from BadIPS
+43,phpids,Item from BadIPS
+44,apache-wordpress,Item from BadIPS
+45,apache-nohome,Item from BadIPS
+46,wp,Item from BadIPS
+47,apache-404,Item from BadIPS
+48,rfi-attack,Item from BadIPS
+49,apache-defensible,Item from BadIPS
+50,sshddos,Item from BadIPS
+51,courierauth,Item from BadIPS
+52,apache-phpmyadmin,Item from BadIPS
+53,default,Item from BadIPS
+54,nginxproxy,Item from BadIPS
+55,exim,Item from BadIPS
+56,assp,Item from BadIPS
+57,apache-php-url-fopen,Item from BadIPS
+58,ftp,Item from BadIPS
+59,apache-scriddies,Item from BadIPS
+60,asterisk-sec,Item from BadIPS
